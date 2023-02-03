@@ -1,6 +1,6 @@
 Autohide tmux status bar
 ========================
-Hides the status bar in tmux after a number of seconds after tmux is started.
+Hides the status bar in tmux after a number of seconds when tmux has started.
 
 Installing
 ----------
