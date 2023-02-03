@@ -28,9 +28,9 @@ To toggle the status bar on for a while, you can bind a key to run the plugin:
 bind-key t run-shell ".tmux/plugins/tmux_status_autohide/autohide.tmux"
 ```
 
-To hide the status bar directly, even if other plugins turns it on, add this plugin last in your plugin list.
+To hide the status bar directly, even if other plugins turns it on, add this plugin last in your plugin list with a zero delay time.
 
 ``` tmux
-set -g @status_autohide_delay "2"
+set -g @status_autohide_delay "0"
 set -g @plugin 'kallistoteles/tmux_status_autohide'
 ```
