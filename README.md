@@ -1,6 +1,6 @@
-Autohide tmux status bar
+Auto hide tmux status bar
 ========================
-Hides the status bar in tmux after a number of seconds, when tmux has started.
+Plugins that hides the status bar in tmux after a number of seconds, when tmux has started.
 
 Installing
 ----------
@@ -28,7 +28,7 @@ To toggle the status bar on for a while, you can bind a key to run the plugin:
 bind-key t run-shell ".tmux/plugins/tmux_status_autohide/autohide.tmux"
 ```
 
-To hide the status bar directly, even if other plugins turns it on, add this plugin last in your plugin list with zero delay time.
+To disable / hide the status bar directly, even if other plugins turns it on, add this plugin last in your plugin list with zero delay time.
 
 ``` tmux
 set -g @status_autohide_delay "0"
