@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Turn the status bar on
-tmux set-option -g status off
+tmux set-option -g status on
 
 # Wait for a while
 status_delay=$(tmux show-option -gqv "@status_autohide_delay")
